@@ -8,11 +8,11 @@ import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(modid = ReStoneRecipeAdder.MODID, version = ReStoneRecipeAdder.VERSION)
+@Mod(modid = ReStoneRecipeAdder.MODID, version = ReStoneRecipeAdder.VERSION, dependencies = "required-after:IC2API;")
 public class ReStoneRecipeAdder
 {
     public static final String MODID = "restonerecipeadder";
-    public static final String VERSION = "1.0.0";
+    public static final String VERSION = "1.0.1";
     
     @EventHandler	
     public void postInit(FMLPostInitializationEvent event) {
