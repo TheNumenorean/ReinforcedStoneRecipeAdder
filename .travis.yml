@@ -15,7 +15,5 @@ deploy:
   file_glob: true
   file: "${RELEASE_FILE}"
   on:
-    repo: LemADEC/WarpDrive
-    branch: MC1.7
     tags: true 
     jdk: oraclejdk7
