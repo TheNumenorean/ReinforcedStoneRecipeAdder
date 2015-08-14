@@ -14,6 +14,6 @@ deploy:
     secure: bkv3ZCq19rby+Ez4vdFFpi3blano/oGt776fRSzx1GvvHf+MaRWfN7vhFLGUJQu8d9K6i3ty/aipsu+z3vrPzeHk3A8aNWOHDNFdSN3z9BKAliSwDtCp+Ukqo8nY7mLUph0gLPfutjW2f7+nfpp6/vcrHWJQOkOR31ulXzbLK0+GsmAaLrMq6ueT797Ot/oQ9LmwQrxRG/wngplQGPiwsppS40u8H6a+fSH6aV7RiYD3nn3qRyNnGMLOYVczc3+GHfClDi+O2kw5B3AprpTG79OrEBNWlfIVRd0RmUQnvuJ79HZrFSY2UmncYDJ8nD6z9DAErMS7o0+v+IGgqQbhl8tHsxB92VvtIqW4WMVFeyjsMwQxvIw6+/plubcBK1Al53RtRDgVTRhSMDD8b7vBzFSOTHI50+riymdonlF/RHfY+OWauBHDIsIdHwkY975XGVdTNbKyIJyB7+ds7tTc0Qvdny1xQPQ3NvVtk2k+RhY17Y77YxM2zQ6+LBiBqJo6CbRATYbZ9CvEh7gi6BdqrlD9ako/W/VA+4ztWzFFEfQalwwntXD3KOLTA3MxrctyP9S1jJLMFf8fXTDpsGZJSFwb8RHfryk+11jne9qqpup8B12CL9eB8ATZyAoPA3bb30H8MQegG9Ma1KfPq3TRxp23Y5I/1qOKkVcxer/pu/I=
   file: "${RELEASE_FILE}"
   on:
-    repo: TheNumenorean/ReinforcedStoneRecipeAdder
+	repo: TheNumenorean/ReinforcedStoneRecipeAdder
 	jdk: oraclejdk7
 	tags: true
